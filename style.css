@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Raleway, sans-serif;
+}
+
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: 15% 1fr 1fr;
+}
+
+.sidebar {
+    background-color:#0ea5e9;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+.top {
+    grid-column: 2 / 4;
+
+}
+
+.main {
+    background-color: #e5e7eb;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
+
+.logo {
+    display: flex;
+    align-items: center;  
+    justify-content: start;  
+    padding: 0.5em 1em;
+    font-size: 32px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebuttons {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+}
+
+.sidebuttons li {
+    display: grid; 
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-items: start;
+    padding: 0.5em;
+    gap: 0.5em;
+    color: white; 
+}
+
+
