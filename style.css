@@ -199,7 +199,7 @@ ul {
     grid-template-rows: auto 1fr;
 }
 
-.announcementsContainer h1 {
+.announcementsContainer h1, .trendingContainer h1 {
     align-self: start;
 }
 
@@ -220,6 +220,23 @@ ul {
 
 .trendingContainer {
     grid-column: 2 / 3;
+}
+
+.trendpro {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-bottom: 20px;
+}
+
+.trenduser {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 20px;
+    
+}
+
+.trenduser p {
+    align-self: end;
 }
 
 
